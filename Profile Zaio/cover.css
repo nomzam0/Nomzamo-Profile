@@ -1,0 +1,77 @@
+/*
+ * Globals
+ */
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+ * Base structure
+ */
+
+/* body { */
+/* } */
+
+/*
+ * Header
+ */
+
+.banner-wrap {
+  background-image: url(./assests/banner.jpg);
+  /* background-image: url(https://pixnio.com/free-images/2018/12/02/2018-12-02-13-56-08-1200x800.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+.overlay {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 50%;
+  position: absolute;
+  top: 0;
+}
+
+.img-fluid{
+  border-radius: 50%;
+  height:200px;
+  width:200px;
+}
+
+.nav-masthead .nav-link {
+  padding: 0.25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-bottom: 0.25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.card img{
+  height: 200px;
+  width: 300;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+scrolling {
+  background: black;
+  opacity: 90%;
+  transition: all 0.5s;
+}
